@@ -8,5 +8,9 @@ public class PiTimerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PiTimerApplication.class, args);
+
+		Timer timer = new Timer();
+		timer.callDisplay("Hey There");
+
 	}
 }
